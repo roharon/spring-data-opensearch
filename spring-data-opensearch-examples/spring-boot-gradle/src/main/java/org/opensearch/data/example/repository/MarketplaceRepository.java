@@ -12,7 +12,7 @@ import org.springframework.data.elasticsearch.repository.ElasticsearchRepository
 import org.springframework.stereotype.Repository;
 
 /**
- * See please https://github.com/spring-projects/spring-data-elasticsearch/blob/main/src/main/asciidoc/reference/elasticsearch-repository-queries.adoc
+ * See please https://github.com/spring-projects/spring-data-elasticsearch/blob/main/src/main/antora/modules/ROOT/pages/elasticsearch/repositories/elasticsearch-repository-queries.adoc
  */
 @Repository
 public interface MarketplaceRepository extends ElasticsearchRepository<Product, String> {
